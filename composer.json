@@ -1,0 +1,21 @@
+{
+    "name": "alfr0475/trump-framework",
+    "description": "PHP-Cli Framework.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seiki Koga",
+            "email": "alfr0475@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Trump\\": "src/Trump/"
+        }
+    }
+}
+
